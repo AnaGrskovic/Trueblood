@@ -1,0 +1,1033 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;1,400;1,500&family=Leckerli+One&display=swap');
+
+/* Profil css ////////////////////////////////////////////////////////*/
+
+.profile{
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    text-align: left;
+    margin: 10px auto;
+}
+
+.profile-card {
+    background-color: #f6f5fa;
+    border-radius: 50px;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.ikona-ID {
+    margin: 30px 30px;
+    padding: 0 30px 0 0;
+    border-right: 1px solid #1e396f;
+    text-align: center;
+}
+.ikona img{
+    width: 230px;
+}
+
+.ident{
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.podaci-role {
+    margin: 60px 30px 30px 30px;
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: left;
+    font-size: 25px;
+}
+
+.profile-akcije {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: flex-start;
+    column-gap: 10px;
+    
+}
+
+@media  screen and (max-width: 830px) {
+    .podaci-role{
+        font-size: 20px;
+    }
+}
+/* Kontakt css //////////////////////////////////////////////////*/
+.kontaktpage {
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+}
+.kontakt-naslov h1 {
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 60px;
+}
+.kontakt-info {
+    font-size: 35px;
+    padding: 10px;
+    margin: 20px 0;
+    text-align: center;
+    max-width: 1000px;
+}
+.kontakt-info a{
+    font-weight: lighter;
+    color: #d65d5c;
+}
+.kontakt-info span {
+    font-weight: lighter;
+    color: #d65d5c;
+}
+.kontakt-image {
+    max-width: 70%;
+}
+
+@media screen and (max-width: 620px) {
+    .kontakt-naslov h1 {
+        font-weight: lighter;
+        font-style: normal;
+        font-size: 45px;
+    }
+    .kontakt-info {
+        font-size: 25px;
+        padding: 10px;
+        margin: 20px 0;
+        text-align: center;
+        max-width: 1000px;
+    }
+}
+
+/* FAQ css ///////////////////////////////////////////////////////*/
+.faqpage {
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+}
+.faqpage h1{
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+.faq-pitanje h2{
+    font-style: normal;
+    font-weight: lighter;
+    color: #d65d5c;
+    font-size: 35px;
+    padding: 10px;
+    text-align: center;
+}
+.faq-pitanje{
+    margin: 10px 0 10px 0;
+    text-align: center;
+    justify-content: center;
+    max-width: 1000px;
+}
+.faq-odgovor p {
+    font-size: 25px;
+    text-align:justify;
+    padding: 10px;
+}
+.faq-odgovor {
+    margin: 10px 0 10px 0;
+    max-width: 1000px;
+}
+
+@media screen and (max-width: 440px) {
+    .faqpage h1{
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 45px;
+        padding-bottom: 10px;
+    }
+    .faq-pitanje h2{
+        font-style: normal;
+        font-weight: lighter;
+        color: #d65d5c;
+        font-size: 25px;
+        padding: 0;
+        text-align: center;
+    }
+    .faq-odgovor p {
+        font-size: 20px;
+        text-align:justify;
+        padding: 10px;
+    }
+    .faqpage {
+        margin: 10px 20px 20px 20px;
+        padding: 0;
+        text-align: center;
+        display: grid;
+        grid-template-rows: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+/* Login page css /////////////////////////////////////////////////////*/ 
+.homepage{
+    margin:0;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: "Alegreya";
+    color: #1e396f;
+    overflow: auto;
+    
+}
+
+.text-login{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 900px;
+    font-size: 60px;
+    justify-content: center;
+}
+
+.errorcard {
+    display: flex;
+    background-color: #d65d5c;
+    color: #ffffff;
+    font-size: 20pt;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.basicInfo {
+    font-size: 20pt;
+    text-align: center;
+}
+
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-height: 100px;
+    font-size: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.text p{
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.registracija{
+    background-color: #d65d5c;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 100px;
+    margin-top: 20px;
+    max-width: 300px;
+    font-size: 30px;
+    color: white;
+    font-family: "Leckerli One";
+    cursor: pointer;
+}
+
+.registracija:hover{
+    background-color: #f6f5fa;
+    color: #1e396f;
+    transition: all 0.5s ease;
+    outline: none !important;
+}
+
+.login{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: auto;
+    justify-content: center;
+    max-width: 550px;
+    background-color: #f6f5fa;
+    border-radius: 50px;
+    padding: 20px 10px 20px 10px;
+
+}
+
+
+.input{
+    background-color: #1e396f;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    padding: 10px 30px;
+    width: 100%;
+    font-size: 25px;
+    margin: 0 40px 10px 40px;
+    cursor: pointer;
+}
+
+.login ::placeholder{
+    color: #f6f5fa;
+    opacity: 0.5;
+    font-style: italic;
+}
+
+.input:focus{
+    background-color: #f6f5fa;
+    color: #1e396f;
+    transition: all 0.5s ease;
+    font-style: normal;
+    outline: 1px solid #d65d5c;
+    border: none;
+}
+.submit{
+    width: 150px;
+    border: none;
+    border-radius: 100px;
+    background-color: #d65d5c;
+    color: white;
+    padding: 10px 30px;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: "Leckerli One";
+    margin-top: 10px;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+.submit:hover{
+    background-color: #f6f5fa;
+    color: #1e396f;
+    transition: all 0.5s ease;
+    outline: none !important;
+}
+
+.login p{
+    margin-bottom: 60px;
+}
+
+.image-alert{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 800px;
+    justify-content: right;
+
+}
+
+.alert{
+    background-color:#1e396f;
+    color: #f6f5fa;
+    border-radius: 100px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 75%;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    
+}
+
+.alert-red{
+    color: #f57d68;
+    font-weight: 500;
+}
+
+.image{
+    max-width: 100%;
+    height: auto;
+    padding-top: 60px;
+}
+
+
+@media screen and (max-width: 1520px){
+    .homepage{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .image-alert{
+        max-width: 600px;
+        justify-content: center;
+    }
+    .image{
+        max-width: 600px;
+        height: auto;
+    }
+    .alert{
+        width: 100%;
+    }
+    .login{
+        margin-top: auto;
+    }
+    .text{
+        margin-bottom: 30%;
+    }
+
+    .text-login{
+        max-width: 700px;
+        justify-self: center;
+    }
+    .login p{
+        font-size: smaller;
+    }
+    .input{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1210px){
+    .homepage{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: auto;
+        margin-top: 10px;
+    }
+
+    .image-alert{
+        margin: auto;
+        justify-content: center;
+    }
+    .alert{
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .image{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .text-login{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        margin:auto;
+        text-align: center;
+    }
+
+    .login {
+        margin-top: -30px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+
+}
+@media screen and (max-width: 645px) {
+    .text p{
+        font-size: 40px;
+    }
+    .login p{
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    .login{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -50px;
+        margin-bottom: auto;
+        justify-content: center;
+        max-width: 550px;
+        background-color: #ffffff;
+        padding: 20px 10px 20px 10px;
+    }
+    .alert {
+        font-size: 20px;
+        width: 100%;
+    }
+
+}
+
+.roledesplay {
+    color: #d8d8d8;
+    font-size: 10px;
+}
+
+.tekst-secondary {
+    font-size: 50px;
+    text-align: center;
+}
+.label-secondary {
+    font-size: 25px;
+    text-align: center;
+    margin: 20px;
+}
+.dupli label {
+    margin: 30px;
+    font-size: 20px;
+}
+
+
+/* Sign up page css //////////////////////////////////////////////////*/
+
+.reg{
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    margin: 0 20px 10px;
+}
+
+.reg input{
+    border-radius: 100px;
+    padding: 10px 30px;
+    width: 100%;
+    border: none;
+    background-color: #f6f5fa;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.reg input:focus{
+    background-color: white;
+    color: #1e396f;
+    transition: all 0.5s ease;
+    font-style: normal;
+    border: none;
+    outline: 1px solid #d65d5c;
+}
+
+.reg ::placeholder{
+    color: #1e396f;
+    font-style: italic;
+    font-size: 25px;
+    opacity: 0.5;
+}
+
+.reg label{
+    color: #d65d5c;
+}
+
+.tekst{
+    font-size: 60px;
+    color: #1e396f;
+    text-align: center;
+}
+
+.label{
+    font-size: 25px;
+    margin: 20px auto 20px 30px;  
+}
+
+.dupli{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto 20px auto;
+    column-gap: 10px;
+    width: auto;
+
+}
+
+.single{
+    margin: 20px auto;
+    width: auto;
+}
+
+.krgrupe{
+    text-align: center;
+}
+
+.krgrupe select{
+    border-radius: 100px;
+    font-size: 20px;
+    padding-left: 5px;
+    outline: none !important;
+    border: 1px solid #1e396f;
+}
+
+.krgrupe label{
+    color: #1e396f;
+    font-size: 25px;
+    padding: 10px 30px;
+}
+
+.napomena p{
+    font-size: 20px;
+    margin: 20px; 
+    text-align: center;  
+}
+
+.gumbi{
+    text-align: center;
+}
+
+.kreiraj{
+    font-size: 30px;
+    border-radius: 100px;
+    background-color: #d65d5c;
+    color: #f6f5fa;
+    border: none;
+    padding: 10px 30px;
+    margin: 20px 0;
+}
+
+.kreiraj:hover{
+    background-color: #f6f5fa;
+    color: #1e396f;
+    transition: all 0.5s ease;
+    outline: none !important;
+    cursor: pointer;
+}
+
+.maligumb{
+    font-size: 20px;
+    border-radius: 100px;
+    background-color: #f6f5fa;
+    color: #1e396f;
+    border: none;
+    padding: 10px 30px;
+    margin: 5px;
+}
+
+.maligumb:hover{
+    background-color: #d65d5c;
+    color: #f6f5fa;
+    transition: all 0.5s ease;
+    outline: none !important;
+    cursor: pointer;
+}
+
+.gumb-traka {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin: 20px 10px;
+    justify-content: center;
+}
+
+.secondary {
+    font-size: 25px;
+    border-radius: 100px;
+    background-color: #f6f5fa;
+    color: #1e396f;
+    border: none;
+    padding: 10px 30px;
+    margin: 10px 0 0 0;
+}
+.secondary:hover{
+    background-color: #d65d5c;
+    color: #f6f5fa;
+    transition: all 0.5s ease;
+    outline: none !important;
+    cursor: pointer;
+}
+/* Pokusaj_doniranja css ////////////////////////////////////////////////*/
+
+.formular {
+    width: 800px;
+}
+
+.redak {
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+}
+
+.question {
+    font-size: 25px;
+    text-align: left;
+    margin: 14px 10px;
+
+}
+
+.odgovor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px 10px;
+    width: 50%;
+    justify-content: center;
+}
+
+.odgovor label {
+    font-size: 20px;
+    color: #1e396f;
+}
+
+.odgovor input[type=radio]{
+    margin: 8px;
+    width: 50%;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 830px){
+    .tekst{
+        font-size: 50px;
+    }
+    .reg input{
+        font-size: 20px;
+    }
+    .reg input::placeholder{
+        font-size: 20px;
+    }
+    .formular{
+        width: 100%;
+    }
+    .gumb-traka {
+        flex-wrap: wrap;
+        flex-direction: row;
+        flex: 1;
+        margin: 20px 10px;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 545px){
+    .dupli{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .dupli input{
+        margin-top: 20px;
+    }
+    .reg {
+        margin: 10px 40px;
+    }
+    .label{
+        font-size: 20px;
+        margin: 20px auto 0 30px;  
+    }
+    .pitanje {
+        font-size: 20px;
+    }
+    
+}
+
+/* Autorizacija css /////////////////////////////////////////////////*/
+
+.sent{
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    text-align: center;
+    margin: 0 20px 10px;
+}
+
+.big p{
+    font-size: 60px;
+    padding-bottom: 10px;
+}
+.small p{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.sent span{
+    color: #d65d5c;
+}
+@media screen and (max-width: 1025px) {
+    .big p{
+        font-size: 50px;
+        padding-bottom: 10px;
+    }
+    .small p{
+        font-size: 30px;
+        padding-bottom: 10px;
+    }  
+}
+
+/* Homepage css ///////////////////////////////////////////////////////*/
+
+.content {
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 20px;
+}
+.naslovna{
+    display: grid;
+    grid-template-rows: auto;
+
+}
+
+.pitanje p{
+    font-size: 60px;
+}
+
+.akt {
+    margin: 40px 20px 20px;
+    font-size: 40px;
+}
+
+.epruvete {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 25%;
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    transform: rotate(-90deg);
+}
+
+.sample {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    text-align: center;
+    justify-content: center;
+}
+
+.grupa{
+    font-size: 25px;
+    margin: 30px 0;
+    width: 100px;
+    transform: rotate(90deg);
+}
+
+.progress {
+	background-color: #d8d8d8;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+    border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	position: relative;
+	margin: 30px 0 30px 20px;
+	height: 40px;
+	width: 350px;
+}
+
+.progress-done {
+	background-color: #d65d5c;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}
+
+.home-alert{
+    position: fixed;
+    top:60%;
+    width: 30%;
+    justify-content: center;
+}
+
+@media screen and (max-width: 840px) {
+    .str {
+        display: grid;
+        grid-template-rows: auto;
+        justify-self: center;
+        text-align: center;
+        margin: 20px 10px;
+    }
+    .epruvete {
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        top: 50%;
+        display: grid;
+        grid-template-rows: auto;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        transform: rotate(0deg);
+    }
+    .progress {
+        background-color: #d8d8d8;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        position: relative;
+        margin: 10px 0 10px 20px;
+        height: 40px;
+        width: 350px;
+    }
+    .grupa{
+        font-size: 25px;
+        margin: 10px 0;
+        width: 100px;
+        transform: rotate(0deg);
+    }
+}
+
+@media screen and (max-height: 770px) {
+    .epruvete {
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        top: 30%;
+        display: grid;
+        grid-template-rows: auto;
+        justify-content: center;
+        text-align: center;
+        margin: 20px;
+        transform: rotate(-90deg);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .epruvete {
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        top: 47%;
+        display: grid;
+        grid-template-rows: auto;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        transform: rotate(0deg);
+    }
+    .pitanje p{
+        font-size: 50px;
+        margin-top: 0;
+    }
+    .progress {
+        background-color: #d8d8d8;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        position: relative;
+        margin: 10px 0 10px 20px;
+        height: 40px;
+        width: 350px;
+    }
+    .grupa{
+        font-size: 25px;
+        margin: 10px 0;
+        width: 100px;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .epruvete {
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        top: 60%;
+        display: grid;
+        grid-template-rows: auto;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        transform: rotate(0deg);
+    }
+
+    .progress {
+        background-color: #d8d8d8;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        position: relative;
+        margin: 10px 0 10px 20px;
+        height: 40px;
+        width: 250px;
+    }
+    .grupa{
+        font-size: 20px;
+        margin: 15px 0;
+        width: 80px;
+    }
+}
+@media screen and (max-height: 650px) and (max-width: 845px) {
+    .epruvete {
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        top: 90%;
+        display: grid;
+        grid-template-rows: auto;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        transform: rotate(0deg);
+    }
+
+    .progress {
+        background-color: #d8d8d8;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        position: relative;
+        margin: 10px 0 10px 20px;
+        height: 40px;
+        width: 250px;
+    }
+    .grupa{
+        font-size: 20px;
+        margin: 15px 0;
+        width: 80px;
+    }
+}
+@media screen and (max-height: 850px) and (max-width: 450px) {
+    .epruvete {
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        top: 45%;
+        display: grid;
+        grid-template-rows: auto;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 0;
+        transform: rotate(0deg);
+    }
+
+    .progress {
+        background-color: #d8d8d8;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        position: relative;
+        margin: 10px 0 10px 20px;
+        height: 40px;
+        width: 250px;
+    }
+    .grupa{
+        font-size: 20px;
+        margin: 15px 0;
+        width: 80px;
+    }
+    .str{
+        margin: 0;
+    }
+    .pitanje p{
+        font-size: 40px;
+    }
+    .content{
+        margin: 0;
+    }
+    .akt {
+        font-size: 30px;
+    }
+}
+
+
+
+
